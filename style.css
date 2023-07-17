@@ -1,0 +1,50 @@
+.ama-carousel-container {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    aspect-ratio: 17/11;
+    position: relative;
+}
+
+.ama-carousel-image {
+    position: relative;
+    height: 100%;
+    
+    position: absolute; 
+    left: 0;
+    right: 0;
+}
+
+.ama-carousel-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.ama-carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 10px;
+}
+
+header{
+    margin-bottom: 70px;
+}
+
+.carousel-navigation{
+    /* font-size: 50px; */
+    position: absolute;
+    top: 50%;
+    left:-60x;
+    right: -60px;
+    display: flex;
+    /* peche nn funziona il space between ? */
+    justify-content: space-between;
+}
